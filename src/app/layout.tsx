@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/component/Navbar";
+import Navbar from "@/components/Navbar";
 // import ChildLayout from "./newpage/layout";
 // import NewPage from "./newpage/page";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Srishti Portfolio",
@@ -18,8 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={inter.className}>
+    <html lang='en' className='dark'>
+      {/* {inter.className} */}
+      <body className='dark:bg-gray-900'>
         <Navbar />
         {children}
         {/* <ChildLayout /> */}
