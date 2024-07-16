@@ -9,10 +9,24 @@ function Navbar({ className }: { className?: string }) {
   console.log(cn);
 
   return (
-    <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
-    >
+    //  top-10  mx-auto
+    <div className={cn("fixed inset-x-0 w-full z-50 ", className)}>
       <Menu setActive={setActive}>
+        {/* <Link href={"/"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item='Srishti Gautam'
+          ></MenuItem>
+        </Link> */}
+
+        <Link href={"/"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item='Home'
+          ></MenuItem>
+        </Link>
         <Link href={"/"}>
           <MenuItem
             setActive={setActive}
@@ -25,6 +39,13 @@ function Navbar({ className }: { className?: string }) {
             setActive={setActive}
             active={active}
             item='Projects'
+          ></MenuItem>
+        </Link>
+        <Link href={"/"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item='Blogs'
           ></MenuItem>
         </Link>
       </Menu>

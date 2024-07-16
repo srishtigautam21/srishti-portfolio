@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='dark'>
       {/* {inter.className} */}
-      <body className='dark:bg-gray-900'>
+      <body className='dark:bg-black/[0.96] relative flex justify-center'>
         <Navbar />
         {children}
         {/* <ChildLayout /> */}
