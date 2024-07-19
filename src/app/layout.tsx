@@ -20,10 +20,11 @@ export default function RootLayout({
   return (
     <html lang='en' className='dark'>
       {/* {inter.className} */}
-      <body className='dark:bg-black/[0.96] relative flex justify-center'>
+      {/* bg-black/[0.96] */}
+      <body className='dark:bg-navy relative'>
         <Navbar />
         {children}
-        {/* <ChildLayout /> */}
+        {/* the page file is the children */}
       </body>
     </html>
   );
