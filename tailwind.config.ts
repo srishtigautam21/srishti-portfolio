@@ -14,6 +14,10 @@ const config: Config = {
         green: "#64ffda",
         lightSlate: "#ccd6f6",
         slate: "#8892b0",
+        fontSans:
+          "'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif",
+        fontMono:
+          "'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
