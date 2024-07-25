@@ -39,6 +39,7 @@ function About() {
           className='h-64 w-64 rounded-md object-cover flex items-center mt-8'
         />
       </div>
+      {/* //Add gmail connect either on side of resume or in navbar */}
     </div>
   );
 }
