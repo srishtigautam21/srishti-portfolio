@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import ProfileHome from "@/components/ProfileHome";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       {/* <div>Hello In 1st page nsvndksvkvlkd bcjkdsnks c jsbcjds</div> */}
       <ProfileHome />
       <About />
+      <Skills />
     </main>
   );
 }
